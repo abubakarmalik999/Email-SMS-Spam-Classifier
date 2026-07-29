@@ -6,6 +6,12 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 
+# Page Configuration
+st.set_page_config(
+    page_title="Email/SMS Spam Classifier",
+    layout="wide"
+)
+
 nltk.download('punkt')
 nltk.download('punkt_tab')
 nltk.download('stopwords')
